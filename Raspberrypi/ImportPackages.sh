@@ -18,6 +18,7 @@ cd Python-3.12.1/
 ./configure
 make
 make install
+python3 -m pip install --upgrade pip
 
 popd
 rm -Rf temp 
