@@ -12,9 +12,9 @@ apt install -y postgresql
 apt install -y pip
 apt install -y libffi-dev
 apt install -y libssl-dev openssl
-wget https://www.python.org/ftp/python/3.13.0/Python-3.13.0.tgz
-tar -zxvf Python-3.13.0.tgz
-cd Python-3.13.0/
+wget https://www.python.org/ftp/python/3.12.1/Python-3.12.1.tgz
+tar -zxvf Python-3.12.1.tgz
+cd Python-3.12.1/
 ./configure
 make
 make install
