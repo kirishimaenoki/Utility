@@ -1,5 +1,5 @@
 mkdir temp
-cd temp
+pushd temp
 
 # install packages.
 apt install -y git
@@ -19,5 +19,5 @@ cd Python-3.12.1/
 make
 make install
 
-cd ..
-rm -d temp 
+popd
+rm -Rf temp 
