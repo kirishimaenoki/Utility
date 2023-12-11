@@ -9,7 +9,7 @@ apt install -y nginx
 apt install -y postgresql
 
 # install Python3.
-apt install -y pip
+apt install -y pip3
 apt install -y libffi-dev
 apt install -y libssl-dev openssl
 wget https://www.python.org/ftp/python/3.12.1/Python-3.12.1.tgz
